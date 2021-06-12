@@ -1,0 +1,29 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\mdmorshedul.islam\OneDrive - University of Calgary\workspace\matlab\ImageEntropy\for_redistribution" />
+  <mkdir dir="C:\Users\mdmorshedul.islam\OneDrive - University of Calgary\workspace\matlab\ImageEntropy\for_testing" />
+  <mkdir dir="C:\Users\mdmorshedul.islam\OneDrive - University of Calgary\workspace\matlab\ImageEntropy\for_redistribution_files_only" />
+</ant>
+mcc -C -o ImageEntropy -W WinMain:ImageEntropy -T link:exe -d 'C:\Users\mdmorshedul.islam\OneDrive - University of Calgary\workspace\matlab\ImageEntropy\for_testing' -v 'C:\Users\mdmorshedul.islam\OneDrive - University of Calgary\workspace\matlab\ImageEntropy\FormGUI.m' 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "C:\Users\mdmorshedul.islam\OneDrive - University of
+Calgary\workspace\matlab\ImageEntropy" to Compiler path instance.] 
+Parsing file "C:\Users\mdmorshedul.islam\OneDrive - University of Calgary\workspace\matlab\ImageEntropy\FormGUI.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 6 temporary MEX authorization files.
+Removing: 'C:\Users\MDMORS~1.ISL\AppData\Local\Temp\mathworks_tmp_0288828264_10376.auth'.
+Removing: 'C:\Users\MDMORS~1.ISL\AppData\Local\Temp\mathworks_tmp_0288815082_10376.auth'.
+Removing: 'C:\Users\MDMORS~1.ISL\AppData\Local\Temp\mathworks_tmp_028887426_10376.auth'.
+Removing: 'C:\Users\MDMORS~1.ISL\AppData\Local\Temp\mathworks_tmp_028881426_10376.auth'.
+Removing: 'C:\Users\MDMORS~1.ISL\AppData\Local\Temp\mathworks_tmp_0288811851_10376.auth'.
+Removing: 'C:\Users\MDMORS~1.ISL\AppData\Local\Temp\mathworks_tmp_028888207_10376.auth'.
+Generating file "C:\Users\mdmorshedul.islam\OneDrive - University of Calgary\workspace\matlab\ImageEntropy\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\Program Files\MATLAB\R2015a\toolbox\compiler\Resources\default_icon.ico to C:\Users\mdmorshedul.islam\OneDrive - University of Calgary\workspace\matlab\ImageEntropy\for_testing\ImageEntropy.exe.
+Attempting to embed the CTF archive into the application C:\Users\mdmorshedul.islam\OneDrive - University of Calgary\workspace\matlab\ImageEntropy\for_testing\ImageEntropy.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at C:\Users\mdmorshedul.islam\OneDrive - University of Calgary\workspace\matlab\ImageEntropy\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
+Elapsed packaging time was: 4 minutes and 18 seconds.
